@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto-EDELEVADORES</title>
+    <link rel="shortcut icon" href="icon-edelevadores.png"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/contacto.css">
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="header">
+                <div class="header-nav">
+                    <nav>
+                        <ul>
+                            <li>Para consultas</li>
+                            <li>
+                                <img src="iconos/telephone.jpg" class="icon-phone">
+                                935 459 551
+                            </li>
+                            <li>
+                                <img src="iconos/telephone.jpg" class="icon-phone">
+                                989 455 995
+                            </li>
+                            <li>
+                                <img src="iconos/carta.png" class="icon-phone">
+                                edemelevadores@hotmail.com
+                            </li>
+                        </ul>
+                        <div class="header-nav-fb">
+                            <a href="https://www.facebook.com/edelevadores" target="_blank">
+                                <img src="iconos/facebook.jpg" class="icon-fb">
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+                <div class="header-logo">
+                    <div class="header-logo-logo">
+                        <img src="logo1.png">
+                    </div>
+                    <div class="header-contact">
+                        <button class="btn-whatsapp">
+                            <a href="https://api.whatsapp.com/send?phone=51989455995" target="_blank">
+                                <img src="iconos/whatsapp.png" class="icon-phone">
+                                : 989 455 995
+                            </a>
+                        </button>
+                        <button class="btn-brochure">
+                            <a href="documentos/BROCHURE-EDELEVADORES.pdf" target="_blank">
+                                BROCHURE DE PRODUCTOS
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="header-pestañas">
+                    <ul>
+                        <a href="index.html"><li>INICIO</li></a>
+                        <a href="nosotros.html"><li>LA EMPRESA</li></a>
+                        <a href="documentos/CATALOGO-EDELEVADORES.pdf"><li>SERVICIOS</li></a>
+                        <a href=""><li>CONTÁCTENOS</li></a>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="main-contacto">
+                <div class="main-contacto-datos">
+                    <h1>CONTACTOS</h1>
+                    <p>Para contactarse con nuestros ejecutivos, por favor complete el siguiente
+                    formulario y a la brevedad posible nos contactaremos con usted.</p>
+                    <p>
+                        <img src="iconos/location.png" class="icon-phone">
+                        Lima - Perú
+                    </p>
+                    <p>
+                        <img src="iconos/phone-call.png" class="icon-phone">
+                        935 459 551 / 989 455 995
+                    </p>
+                    <p>
+                        <img src="iconos/letter.png" class="icon-phone">
+                        edemelevadores@hotmail.com / edemetalicas@gmail.com
+                    </p>
+                </div>
+                <div class="main-contacto-form">
+                    <h1>SOLICITA INFORMACIÓN</h1>
+                    <form action="php/correo.php" method="post">
+                        <input type="text" placeholder="Nombre" name="nombre" id="form-nombre" required="">
+                        <input type="email" placeholder="Email" name="email" id="form-email" required="">
+                        <input type="text" placeholder="Asunto" name="asunto" id="form-asunto" required="">
+                        <textarea placeholder="Mensaje" name="mensaje" id="form-mensaje" required=""></textarea>
+                        <input type="submit" value="Enviar" class="btn-enviar">
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="foot-datos">
+                <div class="foot-datos-nosotros">
+                    <h4><b>SOBRE NOSOTROS</b></h4>
+                    <p>EDELEVADORES le ofrece la oportunidad de comprar elevadores de calidad
+                        y seguridad a un precio competitivo, y con un servicio de calidad,
+                        proximidad y su gran equipo técnico especializado.
+                    </p>
+                    <p>
+                        <img src="iconos/desplegable.png" class="icon-phone">
+                        Ver más
+                    </p>
+                </div>
+                <div class="foot-datos-contactos">
+                    <h4><b>NUESTROS CONTACTOS</b></h4>
+                    <p>
+                        <img src="iconos/location.png" class="icon-phone">
+                        Lima - Perú
+                    </p>
+                    <p>
+                        <img src="iconos/letter.png" class="icon-phone">
+                        edemelevadores@hotmail.com / adm.edemetalicas@hotmail.com
+                    </p>
+                    <p>
+                        <img src="iconos/phone-call.png" class="icon-phone">
+                        935 459 551 / 989 455 995
+                    </p>
+                </div>
+                <div class="foot-datos-facebook">
+                    <h4><b>REDES SOCIALES</b></h4>
+                    <a href="https://www.facebook.com/edelevadores" target="_blank">
+                        <img src="iconos/facebook.jpg" class="icon-fb2">
+                    </a>
+                </div>
+            </div>
+            <div class="foot-copyright">
+                <p>© EDELEVADORES S.A.C 2021 - Todos los derechos reservados</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
